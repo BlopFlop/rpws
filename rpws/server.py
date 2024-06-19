@@ -37,14 +37,22 @@ import rpws.models as models
 # Thus the server version was added to the url after 2012 version.
 # Otherwise the url for two servers called X for 2016 and 2017 Revit models
 # would have been the same url.
-sroots = {"2012": "/RevitServerAdminRESTService/AdminRESTService.svc",
-          "2013": "/RevitServerAdminRESTService2013/AdminRESTService.svc",
-          "2014": "/RevitServerAdminRESTService2014/AdminRESTService.svc",
-          "2015": "/RevitServerAdminRESTService2015/AdminRESTService.svc",
-          "2016": "/RevitServerAdminRESTService2016/AdminRESTService.svc",
-          "2017": "/RevitServerAdminRESTService2017/AdminRESTService.svc",
-          "2018": "/RevitServerAdminRESTService2018/AdminRESTService.svc",
-          }
+sroots = {
+    "2012": "/RevitServerAdminRESTService/AdminRESTService.svc",
+    "2013": "/RevitServerAdminRESTService2013/AdminRESTService.svc",
+    "2014": "/RevitServerAdminRESTService2014/AdminRESTService.svc",
+    "2015": "/RevitServerAdminRESTService2015/AdminRESTService.svc",
+    "2016": "/RevitServerAdminRESTService2016/AdminRESTService.svc",
+    "2017": "/RevitServerAdminRESTService2017/AdminRESTService.svc",
+    "2018": "/RevitServerAdminRESTService2018/AdminRESTService.svc",
+    "2019": "/RevitServerAdminRESTService2019/AdminRESTService.svc",
+    "2020": "/RevitServerAdminRESTService2020/AdminRESTService.svc",
+    "2021": "/RevitServerAdminRESTService2021/AdminRESTService.svc",
+    "2022": "/RevitServerAdminRESTService2022/AdminRESTService.svc",
+    "2023": "/RevitServerAdminRESTService2023/AdminRESTService.svc",
+    "2024": "/RevitServerAdminRESTService2024/AdminRESTService.svc",
+    "2025": "/RevitServerAdminRESTService2025/AdminRESTService.svc",
+}
 
 
 class RevitServer(object):
